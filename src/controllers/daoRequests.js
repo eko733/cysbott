@@ -62,6 +62,7 @@ $${this.coinData.symbol} | ${this.coinData.name} | ${date}\n
     }</b>
 💵Marketcap : <b>${
       market_cap ? `U$${float(market_cap)}` : "test"
+    }</b>
 @axellab7337
 
 
