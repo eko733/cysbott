@@ -60,7 +60,9 @@ Lowest price in 24h : <b>${
       low_24h ? `U$${float(low_24h)}` : "Not defined,  try again later"
     }</b>
 
-<{ "Image": "https://pbs.twimg.com/profile_images/1418763615826550786/zZXlnxTo.jpg"}>
+MADE BY : AXELLAB <b>{
+      "https://pbs.twimg.com/profile_images/1418763615826550786/zZXlnxTo.jpg"
+    }</b>
 
 `;
 
