@@ -5,7 +5,7 @@ const Markup = require("telegraf/markup");
 module.exports = (bot) => {
   const texto = (
     msg
-  ) => `Welcome ${msg.from.username} to BORING PROTOCOL BOT PRICE! created by AXELLAB
+  ) => `Welcome ${msg.from.username} to BORING PROTOCOL❤️ this bot! created by AXELLAB
       
       note:just call /bop `;
 
