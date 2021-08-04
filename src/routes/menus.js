@@ -48,6 +48,6 @@ listCrypto.simpleButton("Commands cryptocurrency", "link_criptocurrency", {
     });
   },
 });
-showMenu.setCommand("menu");
+showMenu.setCommand("/discord");
 
 module.exports = showMenu;
