@@ -21,10 +21,7 @@ module.exports = (bot) => {
   bot.start((msg) =>
     msg.replyWithHTML(texto(msg), { disable_web_page_preview: false })
   );
-  bot.catch((err, msg) => {
-    msg.reply("always use /bop for price bop!");
-    console.log(err);
-  });
+  
   bot.use(showMenu.init());
   bot.on("text", async (msg) => {
     if (msg.message.entities[0].type === "bot_command") {
