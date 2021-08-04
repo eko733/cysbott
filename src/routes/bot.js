@@ -19,7 +19,7 @@ module.exports = (bot) => {
   ];
 
   bot.start((msg) =>
-    msg.replyWithHTML(texto(msg), { disable_web_page_preview: true })
+    msg.replyWithHTML(texto(msg), { disable_web_page_preview: false })
   );
   bot.catch((err, msg) => {
     msg.reply("always use /bop for price bop!");
