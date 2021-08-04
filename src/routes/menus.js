@@ -4,7 +4,7 @@ const getCryptoApi = require("./utils");
 const Markup = require("telegraf/markup");
 
 const showMenu = new TelegrafInlineMenu(
-  `We have all the coins from geckocoin.com but this is the trend`
+  `boring protocol bot price`
 );
 const listCrypto = new TelegrafInlineMenu("Your coin will show up here");
 
@@ -40,8 +40,8 @@ listCrypto.simpleButton("Commands cryptocurrency", "link_criptocurrency", {
       reply_markup: new Markup().inlineKeyboard([
         [
           new Markup().urlButton(
-            "All cryptocurrency commands",
-            "https://geckocoin-bot-telegram.herokuapp.com/commands"
+            "Discord boringprotocol",
+            "discord.gg/boringprotocol"
           ),
         ],
       ]),
