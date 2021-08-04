@@ -4,11 +4,11 @@ const getCryptoApi = require("./utils");
 const Markup = require("telegraf/markup");
 
 const showMenu = new TelegrafInlineMenu(
-  `boring protocol bot price`
+  `discord boring protocol`
 );
 const listCrypto = new TelegrafInlineMenu("Your coin will show up here");
 
-showMenu.submenu("Listar criptomoedas", "show_menu", listCrypto);
+showMenu.submenu("discord boring protocol", "show_menu", listCrypto);
 
 for (let crypto in cryptos) {
   listCrypto.simpleButton(
