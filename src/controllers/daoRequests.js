@@ -61,7 +61,7 @@ $${this.coinData.symbol} | ${this.coinData.name} | ${date}\n
       low_24h ? `U$${float(low_24h)}` : "Not defined,  try again later"
     }</b>
 💵Marketcap : <b>${
-      market_cap ? `U$${float(market_cap)}` :
+      market_cap ? `U$${float(market_cap)}` : "test"
 @axellab7337
 
 
