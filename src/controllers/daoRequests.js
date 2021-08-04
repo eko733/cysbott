@@ -55,7 +55,7 @@ class criptoApi {
 $${this.coinData.symbol} | ${this.coinData.name} | ${date}\n
 💰BOP PRICE: <b>U$${float(current_price)}</b>
 📉Highest value in 24h: <b>${
-      high_24h ? `U$${float(high_24h)} U$${float(price_change_percentage_24h)}` : "Not defined, try again later"
+      high_24h ? `U$${float(high_24h)} U$${float(price_change_percentage_24h+"%\n")}` : "Not defined, try again later"
     }</b>
 📈Lowest price in 24h : <b>${
       low_24h ? `U$${float(low_24h)}` : "Not defined,  try again later"
