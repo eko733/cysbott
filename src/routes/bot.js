@@ -22,7 +22,7 @@ module.exports = (bot) => {
     msg.replyWithHTML(texto(msg), { disable_web_page_preview: true })
   );
   bot.catch((err, msg) => {
-    msg.reply("Sorry i didn't understand what you said!?");
+    msg.reply("always use /bop for price bop!");
     console.log(err);
   });
   bot.use(showMenu.init());
