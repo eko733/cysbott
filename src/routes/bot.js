@@ -12,8 +12,8 @@ module.exports = (bot) => {
   const keyboard = [
     [
       new Markup().urlButton(
-        "All cryptocurrency commands",
-        "https://geckocoin-bot-telegram.herokuapp.com/commands"
+        "discord boring protocol",
+        "discord.gg/boringprotocol"
       ),
     ],
   ];
