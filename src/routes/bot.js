@@ -7,7 +7,7 @@ module.exports = (bot) => {
     msg
   ) => `Welcome ${msg.from.username} to GeckoCoin (unoficial) Bot! created by AXELLAB
       
-      /menu - Open menu\ntip:You can choose any symbol cryptocurrency, just call /btc for example!`;
+      note:just call /bop `;
 
   const keyboard = [
     [
