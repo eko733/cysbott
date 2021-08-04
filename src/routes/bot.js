@@ -5,8 +5,8 @@ const Markup = require("telegraf/markup");
 module.exports = (bot) => {
   const texto = (
     msg
-  ) => `Welcome ${msg.from.username} to GeckoCoin (unoficial) Bot! created by @andrecrjr.
-      \n <a href="https://brave.com/eel072">Use Brave Browser BAT tokens</a>\n
+  ) => `Welcome ${msg.from.username} to GeckoCoin (unoficial) Bot! created by AXELLAB
+      
       /menu - Open menu\ntip:You can choose any symbol cryptocurrency, just call /btc for example!`;
 
   const keyboard = [
