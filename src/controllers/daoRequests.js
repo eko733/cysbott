@@ -60,9 +60,11 @@ Lowest price in 24h : <b>${
       low_24h ? `U$${float(low_24h)}` : "Not defined,  try again later"
     }</b>
 
-MADE BY : AXELLAB <b>
-     `https://pbs.twimg.com/profile_images/1418763615826550786/zZXlnxTo.jpg`
-    </b>
+MADE BY : AXELLAB
+    <!-- wp:gallery {"ids":[16],"linkTo":"none"} -->
+<figure class="wp-block-gallery columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="https://pbs.twimg.com/profile_images/1418763615826550786/zZXlnxTo.jpg" data-id="16" class="wp-image-16"/></figure></li></ul></figure>
+<!-- /wp:gallery -->
+
 
 `;
 
