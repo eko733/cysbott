@@ -19,7 +19,7 @@ module.exports = (bot) => {
   ];
 
   bot.start((msg) =>
-    msg.replyWithHTML(texto(msg), { disable_web_page_preview: false })
+    msg.replyWithHTML(texto(msg), { disable_web_page_preview: true })
   );
   
   bot.use(showMenu.init());
