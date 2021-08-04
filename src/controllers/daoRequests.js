@@ -52,7 +52,7 @@ class criptoApi {
     const { high_24h, low_24h, current_price } = data[0];
     let textOperation = `
 $${this.coinData.symbol} | ${this.coinData.name} | ${date}\n
-Current price: <b>U$${float(current_price)}</b>
+BOP PRICE: <b>U$${float(current_price)}</b>
 Highest value in 24h: <b>${
       high_24h ? `U$${float(high_24h)}` : "Not defined, try again later"
     }</b>
