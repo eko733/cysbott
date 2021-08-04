@@ -5,7 +5,7 @@ class criptoApi {
   constructor(coin = undefined) {
     this._endpoint =
       "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=";
-    this._coin = coin;
+    this._coin = "bop";
     this.coinData = "bop";
   }
 
