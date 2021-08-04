@@ -28,7 +28,7 @@ module.exports = (bot) => {
   bot.use(showMenu.init());
   bot.on("text", async (msg) => {
     if (msg.message.entities[0].type === "bot_command") {
-      msg.reply(await getCryptoApi(msg.message.text.replace("/", "")), {
+      msg.reply(await getCryptoApi(msg.message.text.replace("/p ", "")), {
         reply_markup: new Markup().inlineKeyboard(keyboard),
         parse_mode: "Html",
       });
