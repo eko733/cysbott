@@ -60,7 +60,7 @@ $${this.coinData.symbol} | ${this.coinData.name} | ${date}\n
       low_24h ? `U$${float(low_24h)}` : "Not defined,  try again later"
     }</b>
 
-@AXELLAB
+@axellab7337
 
 
 
