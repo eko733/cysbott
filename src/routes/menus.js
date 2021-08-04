@@ -4,7 +4,7 @@ const getCryptoApi = require("./utils");
 const Markup = require("telegraf/markup");
 
 const showMenu = new TelegrafInlineMenu(
-  `discord boring protocol`
+  `.`
 );
 const listCrypto = new TelegrafInlineMenu("Your coin will show up here");
 
@@ -40,7 +40,7 @@ listCrypto.simpleButton("Commands cryptocurrency", "link_criptocurrency", {
       reply_markup: new Markup().inlineKeyboard([
         [
           new Markup().urlButton(
-            "Discord boringprotocol",
+            ".",
             "discord.gg/boringprotocol"
           ),
         ],
@@ -48,6 +48,6 @@ listCrypto.simpleButton("Commands cryptocurrency", "link_criptocurrency", {
     });
   },
 });
-showMenu.setCommand("discord");
+showMenu.setCommand("discorddjdjsksjjs");
 
 module.exports = showMenu;
