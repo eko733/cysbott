@@ -18,6 +18,15 @@ module.exports = (bot) => {
     ],
   ];
 
+  const keyboard = [
+    [
+      new Markup().urlButton(
+        "Twitter boring protocol",
+        "https://twitter.com/BoringProtocol"
+      ),
+    ],
+  ];
+
   bot.start((msg) =>
     msg.replyWithHTML(texto(msg), { disable_web_page_preview: true })
   );
