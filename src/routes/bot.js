@@ -14,13 +14,6 @@ module.exports = (bot) => {
       new Markup().urlButton(
         "discord boring protocol",
         "discord.gg/boringprotocol"
-      ),
-    ],
-  ];
-
-  const keyboard = [
-    [
-      new Markup().urlButton(
         "Twitter boring protocol",
         "https://twitter.com/BoringProtocol"
       ),
