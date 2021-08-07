@@ -12,12 +12,16 @@ module.exports = (bot) => {
   const keyboard = [
     [
       new Markup().urlButton(
-        "discord boring protocol",
+        "discord",
         "discord.gg/boringprotocol"
      ),
      new Markup().urlButton(
-        "Twitter boring protocol",
+        "Twitter",
         "https://twitter.com/BoringProtocol"
+      ),
+new Markup().urlButton(
+        "Website",
+        "https://boringprotocol.io"
       ),
     ],
   ];
