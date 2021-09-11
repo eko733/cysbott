@@ -13,15 +13,15 @@ module.exports = (bot) => {
     [
       new Markup().urlButton(
         "discord",
-        "discord.gg/boringprotocol"
+        "https://discord.gg/Fz6SC4CB"
      ),
      new Markup().urlButton(
         "Twitter",
-        "https://twitter.com/BoringProtocol"
+        "https://twitter.com/cyclosfi"
       ),
 new Markup().urlButton(
         "Website",
-        "https://boringprotocol.io"
+        "https://cyclos.io"
       ),
     ],
   ];
