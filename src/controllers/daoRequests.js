@@ -52,8 +52,8 @@ class criptoApi {
     const { high_24h, low_24h, market_cap, current_price, price_change_percentage_24h} = data[0];
 
     let textOperation = `
-$${this.coinData.symbol} | ${this.coinData.name} | ${date}\n
-💰CYS PRICE: <b>U$${float(current_price)}/${float(price_change_percentage_24h.toFixed(2))}%</b>
+$CYS | ${this.coinData.name} | ${date}\n
+💰CYS PRICE: <b>$${float(current_price)}/${float(price_change_percentage_24h.toFixed(2))}%</b>
 📉Highest value in 24h: <b>${
       high_24h ? `U$${float(high_24h)}` : "Not defined, try again later"
     }</b>
