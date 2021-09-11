@@ -8,7 +8,7 @@ const showMenu = new TelegrafInlineMenu(
 );
 const listCrypto = new TelegrafInlineMenu("Your coin will show up here");
 
-showMenu.submenu("discord boring protocol", "show_menu", listCrypto);
+showMenu.submenu("discord cyclos", "show_menu", listCrypto);
 
 for (let crypto in cryptos) {
   listCrypto.simpleButton(
@@ -41,7 +41,7 @@ listCrypto.simpleButton("Commands cryptocurrency", "link_criptocurrency", {
         [
           new Markup().urlButton(
             ".",
-            "discord.gg/boringprotocol"
+            "cyclos"
           ),
         ],
       ]),
