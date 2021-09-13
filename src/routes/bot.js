@@ -7,21 +7,17 @@ module.exports = (bot) => {
     msg
   ) => `Welcome ${msg.from.username} to CYCLOS 💰
       
-      note:just call /CYS `;
+      note:just call /woof `;
 
   const keyboard = [
     [
       new Markup().urlButton(
-        "discord",
-        "https://discord.gg/Fz6SC4CB"
+        "Market id",
+        "CwK9brJ43MR4BJz2dwnDM7EXCNyHhGqCJDrAdsEts8n5"
      ),
      new Markup().urlButton(
-        "Twitter",
-        "https://twitter.com/cyclosfi"
-      ),
-new Markup().urlButton(
-        "Website",
-        "https://cyclos.io"
+        "Mint token",
+        "9nEqaUcb16sQ3Tn1psbkWqyhPdLmfHWjKGymREjsAgTE"
       ),
     ],
   ];
