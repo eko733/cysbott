@@ -9,19 +9,7 @@ module.exports = (bot) => {
       
       note:just call /woof `;
 
-  const keyboard = [
-    [
-      new Markup().urlButton(
-        "Market id",
-        "CwK9brJ43MR4BJz2dwnDM7EXCNyHhGqCJDrAdsEts8n5"
-     ),
-     new Markup().urlButton(
-        "Mint token",
-        "9nEqaUcb16sQ3Tn1psbkWqyhPdLmfHWjKGymREjsAgTE"
-      ),
-    ],
-  ];
-
+  
   bot.start((msg) =>
     msg.replyWithHTML(texto(msg), { disable_web_page_preview: true })
   );
